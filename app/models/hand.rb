@@ -4,7 +4,9 @@ class Hand
   
   # Initialize new hand
   def initialize
+    #Sets cards array
     @cards = []
+    # Sets score to zero
     @score = 0
   end
   

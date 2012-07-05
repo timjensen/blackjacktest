@@ -1,0 +1,3 @@
+<% for card in session[:player_hand].cards %>
+<%= image_tag "cards/#{card.card_front}.png"  %>
+<% end %>

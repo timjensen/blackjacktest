@@ -9,15 +9,19 @@ class Card
               th tc td ts jh jc jd js qh qc qd qs 
               kh kc kd ks)
               
-  # Shuffle deck by sorting into random order
+  # Shuffle deck action
   def self.shuffle
+    # Defaults back to first card in card array
     @@pos = 0
+    # Re-orders deck by sorting by random to mimic shuffling
     @@deck = @@deck.sort_by{ rand }
   end
               
   # Initialize new card
-  def initialize	
+  def initialize
+    # Grabs next card in deck
     @card_front = @@deck[@@pos]
+    # Increases deck position by one to allow next card drawn to be unique
     @@pos += 1
   end
   

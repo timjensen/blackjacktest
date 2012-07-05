@@ -1,4 +1,4 @@
-1341477560
+1341523258
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
@@ -11,9 +11,11 @@ Hand	C:/Sites/blaja/app/models/hand.rb	class Hand
 TestCase	C:/Sites/blaja/test/test_helper.rb	class ActiveSupport::TestCase
 card_front	C:/Sites/blaja/app/models/card.rb	  attr_reader :card_front
 cards	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
+deal	C:/Sites/blaja/app/controllers/game_controller.rb	  def deal
+hit	C:/Sites/blaja/app/controllers/game_controller.rb	  def hit
 index	C:/Sites/blaja/app/controllers/game_controller.rb	  def index
+initialize	C:/Sites/blaja/app/models/card.rb	  def initialize
 initialize	C:/Sites/blaja/app/models/hand.rb	  def initialize
-initialize	C:/Sites/blaja/app/models/card.rb	  def initialize	
 score	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
 score_of	C:/Sites/blaja/app/models/hand.rb	  def self.score_of(hand)
 shuffle	C:/Sites/blaja/app/models/card.rb	  def self.shuffle

@@ -6,3 +6,6 @@
 <%= image_tag "cards/back.png"  %>&nbsp
 <%= image_tag "cards/back.png"  %> 
 </div>
+<div>
+<%= button_to "DEAL", { :controller => 'game', :action => 'deal' }, :remote => true %>  
+</div>
