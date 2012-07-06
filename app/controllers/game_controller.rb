@@ -8,7 +8,6 @@ class GameController < ApplicationController
   def deal
     # Shuffle deck
     Card.shuffle
-    
     # Players initial two cards
     hand = Hand.new
     hand.cards << Card.new << Card.new
@@ -25,7 +24,7 @@ class GameController < ApplicationController
     dhand.cards << Card.new
     # Set session variable for dealers hand 
     session[:dealer_hand] = dhand
-    
+    # Check players hand for blackjack
     check_for_bj
   end
   
@@ -41,55 +40,30 @@ class GameController < ApplicationController
     hand.score = Hand.score_of(hand)
     # Update session variable to updated hand
     session[:player_hand] = hand
-
+    # Check player has not gone bust
     check_if_bust
   end
   
   # Stay action called by 'Stay' button
   def stay
-     dhand = session[:dealer_hand]
-    
-    # don't bother if the player busted or got blackjack
-    if session[:player_hand].score < 21
-      dhand.cards << Card.new while(Hand.score_of(dhand) < 17)
-    end
-    
+    # Get session hand
+    dhand = session[:dealer_hand]
+    # Add new cards to dealers hand untill dealers score exceeds 16
+    dhand.cards << Card.new while(Hand.score_of(dhand) < 17)
+    # Update dealers hand score    
     dhand.score = Hand.score_of(dhand)
+    # Update session variable
     session[:dealer_hand] = dhand
-  
+    # Calculate winner
     find_winner
   end
   
+  # Split and Hit will be coded once betting has been implimented
   def split
   end
   
   def double
   end
   
-  def check_if_bust
-    if (session[:player_hand].score > 21)
-    @result = "You Have Gone Bust"
-    end
-  end
   
-  def check_for_bj
-    if (session[:player_hand].score == 21)
-      @result = "Congratulations BlackJack!"
-    end
-  end
-  
-  def find_winner
-    score = session[:player_hand].score
-    d_score = session[:dealer_hand].score
-    
-    if (score > 21)
-      @result = "You Lose"
-    elsif (score == d_score)
-      @result = "You Push"
-    elsif (d_score > 21 or (score > d_score))
-      @result = "You Win!"
-    else
-      @result = "You Lose"
-    end
-  end
 end

@@ -1,4 +1,4 @@
-1341546125
+1341565395
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
@@ -11,11 +11,11 @@ Hand	C:/Sites/blaja/app/models/hand.rb	class Hand
 TestCase	C:/Sites/blaja/test/test_helper.rb	class ActiveSupport::TestCase
 card_front	C:/Sites/blaja/app/models/card.rb	  attr_reader :card_front
 cards	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
-check_for_bj	C:/Sites/blaja/app/controllers/game_controller.rb	  def check_for_bj
-check_if_bust	C:/Sites/blaja/app/controllers/game_controller.rb	  def check_if_bust
+check_for_bj	C:/Sites/blaja/app/helpers/game_helper.rb	  def check_for_bj
+check_if_bust	C:/Sites/blaja/app/helpers/game_helper.rb	  def check_if_bust
 deal	C:/Sites/blaja/app/controllers/game_controller.rb	  def deal
 double	C:/Sites/blaja/app/controllers/game_controller.rb	  def double
-find_winner	C:/Sites/blaja/app/controllers/game_controller.rb	  def find_winner
+find_winner	C:/Sites/blaja/app/helpers/game_helper.rb	  def find_winner
 hit	C:/Sites/blaja/app/controllers/game_controller.rb	  def hit
 index	C:/Sites/blaja/app/controllers/game_controller.rb	  def index
 initialize	C:/Sites/blaja/app/models/card.rb	  def initialize

@@ -6,9 +6,6 @@ cursor_positions:
   - :path: README.rdoc
     :cursor_offset: 447
     :timestamp: 2012-07-05 17:21:20.941000 +12:00
-  - :path: app/views/game/_dealers_cards.html.erb
-    :cursor_offset: 86
-    :timestamp: 2012-07-05 22:47:06.048000 +12:00
   - :path: app/views/game/_dealer_initial.html.erb
     :cursor_offset: 193
     :timestamp: 2012-07-06 10:27:11.415000 +12:00
@@ -38,12 +35,30 @@ cursor_positions:
   - :path: app/views/game/_results.html.erb
     :cursor_offset: 19
     :timestamp: 2012-07-06 13:57:56.487000 +12:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 96
+    :timestamp: 2012-07-06 16:07:35.464000 +12:00
+  - :path: app/views/game/stay.js.erb
+    :cursor_offset: 246
+    :timestamp: 2012-07-06 15:36:25.640000 +12:00
   - :path: app/views/game/hit.js.erb
-    :cursor_offset: 123
-    :timestamp: 2012-07-06 14:17:46.139000 +12:00
-    :selection_offset: 92
-    :block_selection_mode: false
+    :cursor_offset: 291
+    :timestamp: 2012-07-06 15:36:45.841000 +12:00
+  - :path: app/views/game/_dealers_cards.html.erb
+    :cursor_offset: 78
+    :timestamp: 2012-07-06 11:20:42.336000 +12:00
+  - :path: app/views/game/deal.js.erb
+    :cursor_offset: 334
+    :timestamp: 2012-07-06 15:42:05.848000 +12:00
   - :path: app/views/game/_buttons.html.erb
-    :cursor_offset: 23
-    :timestamp: 2012-07-06 15:34:21.728000 +12:00
+    :cursor_offset: 25
+    :timestamp: 2012-07-06 15:35:10.677000 +12:00
+  - :path: app/helpers/game_helper.rb
+    :cursor_offset: 17
+    :timestamp: 2012-07-06 16:07:09.985000 +12:00
+    :selection_offset: 7
+    :block_selection_mode: false
+  - :path: app/assets/stylesheets/game.css.scss
+    :cursor_offset: 422
+    :timestamp: 2012-07-06 20:20:43.898000 +12:00
 files_to_retain: 0
