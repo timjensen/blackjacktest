@@ -30,7 +30,7 @@ class Card
     # Default value
     value = 0
     # Numeral cards set to face value
-    if card_front =~ /^[0-9]^/
+    if card_front =~ /\d/
       value += card_front[0,1].to_i
     # Aces set to 1 or 11 dependant on current score
     elsif card_front =~ /a/
@@ -39,7 +39,7 @@ class Card
       else
         value = 11
       end
-    # Royal cards set to 10
+    # Royal cards and 10s set to 10
     else
       value = 10
     end

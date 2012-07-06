@@ -1,4 +1,4 @@
-1341523258
+1341546125
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
@@ -11,7 +11,11 @@ Hand	C:/Sites/blaja/app/models/hand.rb	class Hand
 TestCase	C:/Sites/blaja/test/test_helper.rb	class ActiveSupport::TestCase
 card_front	C:/Sites/blaja/app/models/card.rb	  attr_reader :card_front
 cards	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
+check_for_bj	C:/Sites/blaja/app/controllers/game_controller.rb	  def check_for_bj
+check_if_bust	C:/Sites/blaja/app/controllers/game_controller.rb	  def check_if_bust
 deal	C:/Sites/blaja/app/controllers/game_controller.rb	  def deal
+double	C:/Sites/blaja/app/controllers/game_controller.rb	  def double
+find_winner	C:/Sites/blaja/app/controllers/game_controller.rb	  def find_winner
 hit	C:/Sites/blaja/app/controllers/game_controller.rb	  def hit
 index	C:/Sites/blaja/app/controllers/game_controller.rb	  def index
 initialize	C:/Sites/blaja/app/models/card.rb	  def initialize
@@ -19,5 +23,7 @@ initialize	C:/Sites/blaja/app/models/hand.rb	  def initialize
 score	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
 score_of	C:/Sites/blaja/app/models/hand.rb	  def self.score_of(hand)
 shuffle	C:/Sites/blaja/app/models/card.rb	  def self.shuffle
+split	C:/Sites/blaja/app/controllers/game_controller.rb	  def split
+stay	C:/Sites/blaja/app/controllers/game_controller.rb	  def stay
 test_homepage	C:/Sites/blaja/test/performance/browsing_test.rb	  def test_homepage
 value	C:/Sites/blaja/app/models/card.rb	  def self.value(card_front, score)

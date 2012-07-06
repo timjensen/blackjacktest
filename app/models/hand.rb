@@ -14,7 +14,7 @@ class Hand
     # Default score
     score = 0
     
-    # Calculates cards that arnt aces first so ace value can be determined
+    # Calculates cards that arn't aces first so ace value can be determined
     hand.cards.each do |card|
       if card.card_front !~ /a/
         score += Card.value(card.card_front, score)

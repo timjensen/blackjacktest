@@ -2,6 +2,8 @@ Blaja::Application.routes.draw do
   resources :game 
   root :to => 'game#index'
   post 'game/deal'
+  post 'game/hit'
+  post 'game/stay'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

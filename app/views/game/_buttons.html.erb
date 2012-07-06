@@ -1,0 +1,6 @@
+<% if (defined?(@result)).nil? %>
+<%= button_to "HIT", { :controller => 'game', :action => 'hit' }, :remote => true %>
+<%= button_to "STAY", { :controller => 'game', :action => 'stay' }, :remote => true %>
+<% else %>
+<%= button_to "DEAL", { :controller => 'game', :action => 'deal' }, :remote => true %> 
+<% end %>

@@ -1,3 +1,5 @@
+<%= label :dealers_score, "Dealers Score:#{session[:dealer_hand].score}" %><br>
 <% for card in session[:dealer_hand].cards %>
 <%= image_tag "cards/#{card.card_front}.png"  %>
-<% end %>
+<% end %><br>
+
