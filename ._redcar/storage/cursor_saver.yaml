@@ -59,6 +59,6 @@ cursor_positions:
     :selection_offset: 7
     :block_selection_mode: false
   - :path: app/assets/stylesheets/game.css.scss
-    :cursor_offset: 422
-    :timestamp: 2012-07-06 20:20:43.898000 +12:00
+    :cursor_offset: 231
+    :timestamp: 2012-07-07 12:11:51.013000 +12:00
 files_to_retain: 0

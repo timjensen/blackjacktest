@@ -2,11 +2,16 @@
 
 A simple BlackJack game underconstruction with the goal of conversion into a Facebook app.
 
-TODO
+SO FAR
 - Simple deal
-- Workout score after initial deal
-- Allow option of 'Hit' 'Stay' 'Double'
-- Calculate winner
+- Hit and Stay options coded
+- Winner calculated
+- Some simple CSS
+
+TODO
+- Allow option of 'Split' and 'Double'
+- Connect to facebook / login system
+- Impliment wager system
 
 Thinking at this stage amount to bet will be fixed visitors to app will a $$ amount for visiting
 the app each day down right hand side a ladder of friends showing amount of $$ and possibly wins and losses counts.
