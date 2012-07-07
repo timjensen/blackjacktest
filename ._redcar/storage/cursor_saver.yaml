@@ -3,9 +3,6 @@ cursor_positions:
   - :path: Gemfile
     :cursor_offset: 248
     :timestamp: 2012-07-05 16:14:46.733000 +12:00
-  - :path: README.rdoc
-    :cursor_offset: 447
-    :timestamp: 2012-07-05 17:21:20.941000 +12:00
   - :path: app/views/game/_dealer_initial.html.erb
     :cursor_offset: 193
     :timestamp: 2012-07-06 10:27:11.415000 +12:00
@@ -61,4 +58,7 @@ cursor_positions:
   - :path: app/assets/stylesheets/game.css.scss
     :cursor_offset: 231
     :timestamp: 2012-07-07 12:11:51.013000 +12:00
+  - :path: README.rdoc
+    :cursor_offset: 208
+    :timestamp: 2012-07-07 13:15:40.884000 +12:00
 files_to_retain: 0
