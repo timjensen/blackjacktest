@@ -1,21 +1,28 @@
-1341699390
+1341792905
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
 Blaja	C:/Sites/blaja/config/application.rb	module Blaja
 BrowsingTest	C:/Sites/blaja/test/performance/browsing_test.rb	class BrowsingTest 
 Card	C:/Sites/blaja/app/models/card.rb	class Card
+CreateUsers	C:/Sites/blaja/db/migrate/20120708071329_create_users.rb	class CreateUsers 
 GameController	C:/Sites/blaja/app/controllers/game_controller.rb	class GameController 
 GameHelper	C:/Sites/blaja/app/helpers/game_helper.rb	module GameHelper
 Hand	C:/Sites/blaja/app/models/hand.rb	class Hand
+SessionsController	C:/Sites/blaja/app/controllers/sessions_controller.rb	class SessionsController 
 TestCase	C:/Sites/blaja/test/test_helper.rb	class ActiveSupport::TestCase
+User	C:/Sites/blaja/app/models/user.rb	class User 
 card_front	C:/Sites/blaja/app/models/card.rb	  attr_reader :card_front
 cards	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
+change	C:/Sites/blaja/db/migrate/20120708071329_create_users.rb	  def change
 check_for_bj	C:/Sites/blaja/app/helpers/game_helper.rb	  def check_for_bj
 check_if_bust	C:/Sites/blaja/app/helpers/game_helper.rb	  def check_if_bust
+create	C:/Sites/blaja/app/controllers/sessions_controller.rb	  def create
+current_user	C:/Sites/blaja/app/controllers/application_controller.rb	  def current_user
 deal	C:/Sites/blaja/app/controllers/game_controller.rb	  def deal
 double	C:/Sites/blaja/app/controllers/game_controller.rb	  def double
 find_winner	C:/Sites/blaja/app/helpers/game_helper.rb	  def find_winner
+from_omniauth	C:/Sites/blaja/app/models/user.rb	  def self.from_omniauth(auth)
 hit	C:/Sites/blaja/app/controllers/game_controller.rb	  def hit
 index	C:/Sites/blaja/app/controllers/game_controller.rb	  def index
 initialize	C:/Sites/blaja/app/models/card.rb	  def initialize

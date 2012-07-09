@@ -1,6 +1,8 @@
 Blaja::Application.routes.draw do
   resources :game 
-  root :to => 'game#index'
+  match 'auth/facebook/callback', :to => 'session#create'
+  root :to => 'auth/facebook'
+  #root :to => 'game#index'
   post 'game/deal'
   post 'game/hit'
   post 'game/stay'
