@@ -23,9 +23,6 @@ cursor_positions:
   - :path: app/views/game/_results.html.erb
     :cursor_offset: 19
     :timestamp: 2012-07-06 13:57:56.487000 +12:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 96
-    :timestamp: 2012-07-06 16:07:35.464000 +12:00
   - :path: app/views/game/stay.js.erb
     :cursor_offset: 246
     :timestamp: 2012-07-06 15:36:25.640000 +12:00
@@ -35,17 +32,9 @@ cursor_positions:
   - :path: app/views/game/deal.js.erb
     :cursor_offset: 334
     :timestamp: 2012-07-06 15:42:05.848000 +12:00
-  - :path: app/helpers/game_helper.rb
-    :cursor_offset: 17
-    :timestamp: 2012-07-06 16:07:09.985000 +12:00
-    :selection_offset: 7
-    :block_selection_mode: false
   - :path: README.rdoc
     :cursor_offset: 208
     :timestamp: 2012-07-07 13:15:40.884000 +12:00
-  - :path: config/initializers/omniauth.rb
-    :cursor_offset: 178
-    :timestamp: 2012-07-08 10:16:23.940000 +12:00
   - :path: app/assets/stylesheets/game.css.scss
     :cursor_offset: 278
     :timestamp: 2012-07-07 15:53:32.811000 +12:00
@@ -69,13 +58,48 @@ cursor_positions:
   - :path: app/views/game/_dealers_cards.html.erb
     :cursor_offset: 205
     :timestamp: 2012-07-06 19:50:27.185000 +12:00
-  - :path: app/controllers/game_controller.rb
-    :cursor_offset: 200
-    :timestamp: 2012-07-06 16:12:26.056000 +12:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 18
+    :timestamp: 2012-07-09 12:51:27.412000 +12:00
+    :selection_offset: 52
+    :block_selection_mode: false
+  - :path: app/helpers/game_helper.rb
+    :cursor_offset: 593
+    :timestamp: 2012-07-09 12:14:25.732000 +12:00
+  - :path: app/controllers/sessions_controller.rb
+    :cursor_offset: 166
+    :timestamp: 2012-07-08 20:30:43.293000 +12:00
+    :selection_offset: 176
+    :block_selection_mode: false
   - :path: Gemfile
     :cursor_offset: 104
     :timestamp: 2012-07-07 19:23:25.787000 +12:00
   - :path: db/migrate/20120708071329_create_users.rb
     :cursor_offset: 205
-    :timestamp: 2012-07-08 23:02:50.143000 +12:00
+    :timestamp: 2012-07-09 13:24:41.496000 +12:00
+    :selection_offset: 188
+    :block_selection_mode: false
+  - :path: app/controllers/game_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-07-06 16:12:26.056000 +12:00
+    :selection_offset: 44
+    :block_selection_mode: false
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 71
+    :timestamp: 2012-07-09 12:52:29.740000 +12:00
+  - :path: config/database.yml
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 10:33:30.649000 +12:00
+  - :path: config/environments/production.rb
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 10:33:28.664000 +12:00
+  - :path: config/environment.rb
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 10:33:28.623000 +12:00
+  - :path: config/initializers/omniauth.rb
+    :cursor_offset: 178
+    :timestamp: 2012-07-08 10:16:23.940000 +12:00
+  - :path: Rakefile
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 10:33:28.300000 +12:00
 files_to_retain: 0
