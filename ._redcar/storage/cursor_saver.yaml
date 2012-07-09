@@ -90,9 +90,6 @@ cursor_positions:
   - :path: config/environments/production.rb
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:28.664000 +12:00
-  - :path: config/environment.rb
-    :cursor_offset: 0
-    :timestamp: 2012-07-05 10:33:28.623000 +12:00
   - :path: config/initializers/omniauth.rb
     :cursor_offset: 178
     :timestamp: 2012-07-08 10:16:23.940000 +12:00
@@ -102,4 +99,10 @@ cursor_positions:
   - :path: Gemfile
     :cursor_offset: 104
     :timestamp: 2012-07-07 19:23:25.787000 +12:00
+  - :path: config/environment.rb
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 10:33:28.623000 +12:00
+  - :path: config/application.rb
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 10:33:28.618000 +12:00
 files_to_retain: 0
