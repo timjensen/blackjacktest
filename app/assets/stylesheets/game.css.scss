@@ -39,6 +39,14 @@
 #betbar {
   float: left;
   width: 100px;
+  background-image: url(/assets/test.png);
+}
+#rounded {
+  border: 1px solid #B47836;
+  border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-top-right-radius: 8px;
 }
 #mainbox {
   float: left;
