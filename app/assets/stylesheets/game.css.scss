@@ -43,13 +43,17 @@
   height: 500px;
 }
 #rounded {
-  border: 2px solid #B47836;
+  border: 2px solid #FFC90E;
   border-bottom-right-radius: 8px;
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 	border-top-right-radius: 8px;
   height: 450px;
   padding: 25px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
+}
+#rounded p {
+  color: #FFC90E;
 }
 #mainbox {
   float: left;
