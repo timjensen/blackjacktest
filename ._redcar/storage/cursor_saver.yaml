@@ -49,11 +49,6 @@ cursor_positions:
   - :path: app/views/game/_dealers_cards.html.erb
     :cursor_offset: 205
     :timestamp: 2012-07-06 19:50:27.185000 +12:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 18
-    :timestamp: 2012-07-09 12:51:27.412000 +12:00
-    :selection_offset: 52
-    :block_selection_mode: false
   - :path: app/helpers/game_helper.rb
     :cursor_offset: 593
     :timestamp: 2012-07-09 12:14:25.732000 +12:00
@@ -112,4 +107,7 @@ cursor_positions:
   - :path: app/assets/stylesheets/game.css.scss
     :cursor_offset: 922
     :timestamp: 2012-07-10 23:24:46.307000 +12:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 99
+    :timestamp: 2012-07-10 12:47:40.806000 +12:00
 files_to_retain: 0
