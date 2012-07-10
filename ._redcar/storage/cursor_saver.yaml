@@ -38,12 +38,6 @@ cursor_positions:
   - :path: app/assets/stylesheets/game.css.scss
     :cursor_offset: 278
     :timestamp: 2012-07-07 15:53:32.811000 +12:00
-  - :path: app/views/game/_betbar.html.erb
-    :cursor_offset: 23
-    :timestamp: 2012-07-07 12:55:26.566000 +12:00
-  - :path: app/views/game/_buttons.html.erb
-    :cursor_offset: 206
-    :timestamp: 2012-07-06 21:40:09.273000 +12:00
   - :path: app/views/game/index.html.erb
     :cursor_offset: 21
     :timestamp: 2012-07-06 20:56:34.835000 +12:00
@@ -96,9 +90,6 @@ cursor_positions:
   - :path: Rakefile
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:28.300000 +12:00
-  - :path: Gemfile
-    :cursor_offset: 104
-    :timestamp: 2012-07-07 19:23:25.787000 +12:00
   - :path: config/environment.rb
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:28.623000 +12:00
@@ -108,7 +99,16 @@ cursor_positions:
   - :path: config.ru
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:28.324000 +12:00
+  - :path: app/views/game/_buttons.html.erb
+    :cursor_offset: 206
+    :timestamp: 2012-07-06 21:40:09.273000 +12:00
   - :path: Gemfile.lock
     :cursor_offset: 0
-    :timestamp: 2012-07-07 20:21:16.360000 +12:00
+    :timestamp: 2012-07-10 13:47:33.681000 +12:00
+  - :path: Gemfile
+    :cursor_offset: 104
+    :timestamp: 2012-07-07 19:23:25.787000 +12:00
+  - :path: app/views/game/_betbar.html.erb
+    :cursor_offset: 97
+    :timestamp: 2012-07-10 16:16:48.310000 +12:00
 files_to_retain: 0
