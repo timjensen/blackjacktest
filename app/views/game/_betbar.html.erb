@@ -1,5 +1,7 @@
 <p>This will contain</p>
-<p></p>
+<% if current_user %>
+<p><%= current_user.name %></p>
+<% end %>
 <p>FB Profile Pic</p>
 <p>Wager</p>
 <p>Wager Selection</p>
