@@ -35,9 +35,6 @@ cursor_positions:
   - :path: README.rdoc
     :cursor_offset: 208
     :timestamp: 2012-07-07 13:15:40.884000 +12:00
-  - :path: app/assets/stylesheets/game.css.scss
-    :cursor_offset: 278
-    :timestamp: 2012-07-07 15:53:32.811000 +12:00
   - :path: app/views/game/index.html.erb
     :cursor_offset: 21
     :timestamp: 2012-07-06 20:56:34.835000 +12:00
@@ -112,4 +109,7 @@ cursor_positions:
   - :path: app/controllers/sessions_controller.rb
     :cursor_offset: 114
     :timestamp: 2012-07-10 15:23:31.138000 +12:00
+  - :path: app/assets/stylesheets/game.css.scss
+    :cursor_offset: 922
+    :timestamp: 2012-07-10 23:24:46.307000 +12:00
 files_to_retain: 0

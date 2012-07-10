@@ -40,13 +40,16 @@
   float: left;
   width: 100px;
   background-image: url(/assets/test.png);
+  height: 500px;
 }
 #rounded {
-  border: 1px solid #B47836;
+  border: 2px solid #B47836;
   border-bottom-right-radius: 8px;
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 	border-top-right-radius: 8px;
+  height: 450px;
+  padding: 25px 0px 0px 0px;
 }
 #mainbox {
   float: left;
@@ -89,7 +92,4 @@
   height: 80px;
   margin: auto;
   text-align: center;
-}
-#sidebar {
-  
 }
