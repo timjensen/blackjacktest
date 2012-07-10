@@ -105,4 +105,10 @@ cursor_positions:
   - :path: config/application.rb
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:28.618000 +12:00
+  - :path: config.ru
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 10:33:28.324000 +12:00
+  - :path: Gemfile.lock
+    :cursor_offset: 0
+    :timestamp: 2012-07-07 20:21:16.360000 +12:00
 files_to_retain: 0
