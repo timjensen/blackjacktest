@@ -3,7 +3,7 @@ class GameController < ApplicationController
   # Index action used for root
   def index
     # Set default bet amount
-    session[:bet] = 25;
+    session[:bet] = "25";
   end
   
   def login
@@ -11,6 +11,12 @@ class GameController < ApplicationController
   end
   # Deal action called by initial 'Play' button
   def deal
+    # Deducted wager from bankroll as soon as deal
+    bet = session[:bet].to_f
+    dollars = current_user.bankroll.to_f
+    dollars -= bet
+    current_user.bankroll = dollars
+    current_user.update
     # Shuffle deck
     Card.shuffle
     # Players initial two cards

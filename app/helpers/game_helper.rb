@@ -18,17 +18,21 @@ module GameHelper
     bet = session[:bet].to_f
     dollars = current_user.bankroll.to_f
     
+    
     if (score > 21)
       @result = "You Lose"
-      dollars -= bet
     elsif (score == d_score)
       @result = "You Push"
+      dollars += bet
     elsif (d_score > 21 or (score > d_score))
       @result = "You Win!"
-      
+      dollars += (bet * 2)
     else
       @result = "You Lose"
     end
+    
+    current_user.bankroll = dollars
+    current_user.update
   end
   
 end
