@@ -108,4 +108,7 @@ cursor_positions:
   - :path: app/assets/stylesheets/game.css.scss
     :cursor_offset: 1707
     :timestamp: 2012-07-11 16:17:59.089000 +12:00
+  - :path: app/views/game/login.html.erb
+    :cursor_offset: 316
+    :timestamp: 2012-07-11 16:23:04.384000 +12:00
 files_to_retain: 0
