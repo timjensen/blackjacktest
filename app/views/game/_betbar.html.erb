@@ -7,7 +7,7 @@
 <p>$ <%= current_user.bankroll %></p>
 <p><strong>Wager</strong></p>
 $<label id="bet_amount"></label>
-<%= image_tag "25chip.png", :onclick => "wager(25);" %>
-<%= image_tag "50chip.png", :onclick => "wager(50);" %>
-<%= image_tag "100chip.png", :onclick => "wager(100);" %>
+<%= link_to_function image_tag("25chip.png"), :onclick => "wager(25);" %>
+<%= link_to_function image_tag("50chip.png"), :onclick => "wager(50);" %>
+<%= link_to_function image_tag("100chip.png"), :onclick => "wager(100);" %>
 </div>
