@@ -1,4 +1,4 @@
 function wager(bet) {
 	var wager = bet;
-	document.getElementById('bet_amount').value = "hhhhh"; 
+	document.getElementById('bet_amount').innerHTML = "hhhhh"; 
 }
