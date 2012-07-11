@@ -5,7 +5,7 @@ Blaja::Application.routes.draw do
   # Set to google for testing purposes
   match 'auth/failure', :to => redirect("https://www.google.co.nz/")
   # Set root
-  root :to => 'game#index'
+  root :to => 'game#login'
   post 'game/deal'
   post 'game/hit'
   post 'game/stay'

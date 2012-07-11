@@ -1,4 +1,4 @@
-1341975283
+1341977188
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
@@ -6,8 +6,8 @@ Blaja	C:/Sites/blaja/config/application.rb	module Blaja
 BrowsingTest	C:/Sites/blaja/test/performance/browsing_test.rb	class BrowsingTest 
 Card	C:/Sites/blaja/app/models/card.rb	class Card
 CreateUsers	C:/Sites/blaja/db/migrate/20120708071329_create_users.rb	class CreateUsers 
-GameController	C:/Sites/blaja/app/controllers/game_controller.rb	class GameController 
 GameController	C:/Sites/blaja/app/controllers/users_controller.rb	class GameController 
+GameController	C:/Sites/blaja/app/controllers/game_controller.rb	class GameController 
 GameHelper	C:/Sites/blaja/app/helpers/game_helper.rb	module GameHelper
 Hand	C:/Sites/blaja/app/models/hand.rb	class Hand
 SessionsController	C:/Sites/blaja/app/controllers/sessions_controller.rb	class SessionsController 
@@ -28,6 +28,7 @@ hit	C:/Sites/blaja/app/controllers/game_controller.rb	  def hit
 index	C:/Sites/blaja/app/controllers/game_controller.rb	  def index
 initialize	C:/Sites/blaja/app/models/card.rb	  def initialize
 initialize	C:/Sites/blaja/app/models/hand.rb	  def initialize
+login	C:/Sites/blaja/app/controllers/game_controller.rb	  def login
 new	C:/Sites/blaja/app/controllers/users_controller.rb	  def new
 score	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
 score_of	C:/Sites/blaja/app/models/hand.rb	  def self.score_of(hand)

@@ -52,11 +52,6 @@ cursor_positions:
   - :path: app/helpers/game_helper.rb
     :cursor_offset: 593
     :timestamp: 2012-07-09 12:14:25.732000 +12:00
-  - :path: db/migrate/20120708071329_create_users.rb
-    :cursor_offset: 205
-    :timestamp: 2012-07-09 13:24:41.496000 +12:00
-    :selection_offset: 188
-    :block_selection_mode: false
   - :path: app/controllers/game_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-07-06 16:12:26.056000 +12:00
@@ -92,9 +87,6 @@ cursor_positions:
   - :path: Gemfile
     :cursor_offset: 104
     :timestamp: 2012-07-07 19:23:25.787000 +12:00
-  - :path: app/views/game/_betbar.html.erb
-    :cursor_offset: 97
-    :timestamp: 2012-07-10 16:16:48.310000 +12:00
   - :path: config/initializers/omniauth.rb
     :cursor_offset: 175
     :timestamp: 2012-07-10 15:19:56.470000 +12:00
@@ -104,10 +96,16 @@ cursor_positions:
   - :path: app/controllers/sessions_controller.rb
     :cursor_offset: 114
     :timestamp: 2012-07-10 15:23:31.138000 +12:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 99
-    :timestamp: 2012-07-10 12:47:40.806000 +12:00
   - :path: app/assets/stylesheets/game.css.scss
     :cursor_offset: 189
     :timestamp: 2012-07-10 23:56:03.447000 +12:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 99
+    :timestamp: 2012-07-10 12:47:40.806000 +12:00
+  - :path: app/views/game/_betbar.html.erb
+    :cursor_offset: 201
+    :timestamp: 2012-07-11 14:49:32.200000 +12:00
+  - :path: db/migrate/20120708071329_create_users.rb
+    :cursor_offset: 285
+    :timestamp: 2012-07-11 14:52:55.648000 +12:00
 files_to_retain: 0

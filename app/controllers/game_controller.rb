@@ -4,6 +4,9 @@ class GameController < ApplicationController
   def index
   end
   
+  def login
+    render :layout => 'login_lay'
+  end
   # Deal action called by initial 'Play' button
   def deal
     # Shuffle deck
