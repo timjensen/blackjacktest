@@ -7,7 +7,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :oauth_token
       t.string :picture
       t.datetime :oauth_expires_at
-      t.integer :bankroll
+      t.integer :bankroll, :default => "2000"
 
       t.timestamps
     end

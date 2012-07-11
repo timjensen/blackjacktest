@@ -104,10 +104,10 @@ cursor_positions:
   - :path: app/controllers/sessions_controller.rb
     :cursor_offset: 114
     :timestamp: 2012-07-10 15:23:31.138000 +12:00
-  - :path: app/assets/stylesheets/game.css.scss
-    :cursor_offset: 922
-    :timestamp: 2012-07-10 23:24:46.307000 +12:00
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 99
     :timestamp: 2012-07-10 12:47:40.806000 +12:00
+  - :path: app/assets/stylesheets/game.css.scss
+    :cursor_offset: 189
+    :timestamp: 2012-07-10 23:56:03.447000 +12:00
 files_to_retain: 0
