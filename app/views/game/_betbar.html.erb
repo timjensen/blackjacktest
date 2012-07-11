@@ -2,10 +2,12 @@
 <center>
   <p><strong>Welcome</strong></p>
 <p><%= current_user.name %></p>
-<%= image_tag "#{current_user.picture}" %>
+<%= image_tag "#{current_user.picture}" %><br>
 <p><strong>Bankroll</strong></p>
 <p>$ <%= current_user.bankroll %></p>
 <p><strong>Wager</strong></p>
 <p>$ value to go here</p>
-<p>Picture of 3 chips to go here as buttons to change wager amount</p>
+<%= image_tag "25chip.png", :onclick => "wager(25);" %>
+<%= image_tag "50chip.png", onclick => "wager(50);" %>
+<%= image_tag "100chip.png", onclick => "wager(100);" %>
 </div>
