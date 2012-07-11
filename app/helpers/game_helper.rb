@@ -15,13 +15,17 @@ module GameHelper
   def find_winner
     score = session[:player_hand].score
     d_score = session[:dealer_hand].score
+    bet = session[:bet].to_f
+    dollars = current_user.bankroll.to_f
     
     if (score > 21)
       @result = "You Lose"
+      dollars -= bet
     elsif (score == d_score)
       @result = "You Push"
     elsif (d_score > 21 or (score > d_score))
       @result = "You Win!"
+      
     else
       @result = "You Lose"
     end

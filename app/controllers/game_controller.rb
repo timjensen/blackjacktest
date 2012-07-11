@@ -2,6 +2,8 @@ class GameController < ApplicationController
   
   # Index action used for root
   def index
+    # Set default bet amount
+    session[:bet] = 25;
   end
   
   def login
@@ -66,6 +68,8 @@ class GameController < ApplicationController
   end
   
   def double
+    
+    find_winner
   end
   
   
