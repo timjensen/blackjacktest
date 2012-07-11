@@ -3,7 +3,9 @@
   <p><strong>Welcome</strong></p>
 <p><%= current_user.name %></p>
 <%= image_tag "#{current_user.picture}" %><br>
+<div id="bank">
 <%= render 'bankroll' %>
+</div>
 <p><strong>Wager</strong></p>
 <label id="bet_amount">" "</label>
 <%= link_to_function image_tag("25chip.png"), "wager('25')" %>

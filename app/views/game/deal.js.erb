@@ -2,6 +2,7 @@ $("#player").html("<%= escape_javascript( render(:partial => "players_cards") ) 
 $("#dealer").html("<%= escape_javascript( render(:partial => "dealers_initial") ) %>");
 $("#buttons").html("<%= escape_javascript( render(:partial => "buttons") ) %>");
 $("#result").html("<%= escape_javascript( render(:partial => "results") ) %>");
+$("#bank").html("<%= escape_javascript( render(:partial => "bankroll") ) %>");
 <% if @result == "Congratulations BlackJack!" %>
   $("#result").html("<%= escape_javascript( render(:partial => "results") ) %>");
 <% end %>
