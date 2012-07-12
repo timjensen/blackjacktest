@@ -1,4 +1,4 @@
-1342041669
+1342068197
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
@@ -37,4 +37,4 @@ split	C:/Sites/blaja/app/controllers/game_controller.rb	  def split
 stay	C:/Sites/blaja/app/controllers/game_controller.rb	  def stay
 test_homepage	C:/Sites/blaja/test/performance/browsing_test.rb	  def test_homepage
 value	C:/Sites/blaja/app/models/card.rb	  def self.value(card_front, score)
-wager	C:/Sites/blaja/app/assets/javascripts/blackjack.js	function wager(bet)
+wager	C:/Sites/blaja/app/controllers/game_controller.rb	  def wager

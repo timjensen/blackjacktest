@@ -17,21 +17,9 @@ cursor_positions:
   - :path: app/views/game/_results.html.erb
     :cursor_offset: 19
     :timestamp: 2012-07-06 13:57:56.487000 +12:00
-  - :path: app/views/game/stay.js.erb
-    :cursor_offset: 246
-    :timestamp: 2012-07-06 15:36:25.640000 +12:00
-  - :path: app/views/game/hit.js.erb
-    :cursor_offset: 291
-    :timestamp: 2012-07-06 15:36:45.841000 +12:00
-  - :path: app/views/game/deal.js.erb
-    :cursor_offset: 334
-    :timestamp: 2012-07-06 15:42:05.848000 +12:00
   - :path: README.rdoc
     :cursor_offset: 208
     :timestamp: 2012-07-07 13:15:40.884000 +12:00
-  - :path: app/views/game/index.html.erb
-    :cursor_offset: 21
-    :timestamp: 2012-07-06 20:56:34.835000 +12:00
   - :path: app/views/game/_players_cards.html.erb
     :cursor_offset: 104
     :timestamp: 2012-07-06 20:43:19.088000 +12:00
@@ -43,14 +31,6 @@ cursor_positions:
   - :path: app/views/game/_dealers_cards.html.erb
     :cursor_offset: 205
     :timestamp: 2012-07-06 19:50:27.185000 +12:00
-  - :path: app/helpers/game_helper.rb
-    :cursor_offset: 593
-    :timestamp: 2012-07-09 12:14:25.732000 +12:00
-  - :path: app/controllers/game_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2012-07-06 16:12:26.056000 +12:00
-    :selection_offset: 44
-    :block_selection_mode: false
   - :path: config/database.yml
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:30.649000 +12:00
@@ -69,21 +49,12 @@ cursor_positions:
   - :path: config.ru
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:28.324000 +12:00
-  - :path: app/views/game/_buttons.html.erb
-    :cursor_offset: 206
-    :timestamp: 2012-07-06 21:40:09.273000 +12:00
   - :path: Gemfile.lock
     :cursor_offset: 0
     :timestamp: 2012-07-10 13:47:33.681000 +12:00
   - :path: Gemfile
     :cursor_offset: 104
     :timestamp: 2012-07-07 19:23:25.787000 +12:00
-  - :path: config/initializers/omniauth.rb
-    :cursor_offset: 175
-    :timestamp: 2012-07-10 15:19:56.470000 +12:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 99
-    :timestamp: 2012-07-10 12:47:40.806000 +12:00
   - :path: db/migrate/20120708071329_create_users.rb
     :cursor_offset: 285
     :timestamp: 2012-07-11 14:52:55.648000 +12:00
@@ -111,13 +82,63 @@ cursor_positions:
   - :path: app/assets/javascripts/blackjack.js
     :cursor_offset: 96
     :timestamp: 2012-07-11 21:55:36.953000 +12:00
-  - :path: app/views/game/_betbar.html.erb
-    :cursor_offset: 267
-    :timestamp: 2012-07-11 22:00:59.921000 +12:00
   - :path: app/assets/stylesheets/game.css.scss
     :cursor_offset: 1766
     :timestamp: 2012-07-11 17:38:45.832000 +12:00
   - :path: app/views/layouts/login_lay.html.erb
     :cursor_offset: 222
     :timestamp: 2012-07-11 15:25:53.704000 +12:00
+  - :path: lib/assets/cacert.pem
+    :cursor_offset: 250605
+    :timestamp: 2012-07-12 09:44:27.003000 +12:00
+  - :path: app/views/game/_bankroll.html.erb
+    :cursor_offset: 70
+    :timestamp: 2012-07-12 09:12:50.487000 +12:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 99
+    :timestamp: 2012-07-10 12:47:40.806000 +12:00
+  - :path: config/initializers/omniauth.rb
+    :cursor_offset: 258
+    :timestamp: 2012-07-12 09:45:06.879000 +12:00
+  - :path: app/helpers/game_helper.rb
+    :cursor_offset: 142
+    :timestamp: 2012-07-12 11:33:32.408000 +12:00
+  - :path: app/controllers/game_controller.rb
+    :cursor_offset: 485
+    :timestamp: 2012-07-12 11:40:01.182000 +12:00
+  - :path: app/views/game/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-07-12 00:13:23.921000 +12:00
+  - :path: app/views/game/deal.js.erb
+    :cursor_offset: 490
+    :timestamp: 2012-07-12 10:53:39.462000 +12:00
+  - :path: app/views/game/_betbar.html.erb
+    :cursor_offset: 295
+    :timestamp: 2012-07-12 10:47:51.922000 +12:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-07-11 15:00:35.329000 +12:00
+  - :path: app/views/game/hit.js.erb
+    :cursor_offset: 294
+    :timestamp: 2012-07-12 10:52:59.430000 +12:00
+    :selection_offset: 370
+    :block_selection_mode: false
+  - :path: app/views/game/stay.js.erb
+    :cursor_offset: 166
+    :timestamp: 2012-07-12 10:53:51.094000 +12:00
+    :selection_offset: 246
+    :block_selection_mode: false
+  - :path: app/assets/javascripts/blackjack.js.erb
+    :cursor_offset: 103
+    :timestamp: 2012-07-12 15:29:01.816000 +12:00
+    :selection_offset: 41
+    :block_selection_mode: false
+  - :path: app/views/game/_buttons.html.erb
+    :cursor_offset: 472
+    :timestamp: 2012-07-06 21:40:09.273000 +12:00
+    :selection_offset: 411
+    :block_selection_mode: false
+  - :path: app/views/game/_chips.html.erb
+    :cursor_offset: 156
+    :timestamp: 2012-07-12 16:13:58.116000 +12:00
 files_to_retain: 0

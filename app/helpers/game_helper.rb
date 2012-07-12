@@ -3,12 +3,14 @@ module GameHelper
   def check_if_bust
     if (session[:player_hand].score > 21)
     @result = "You Have Gone Bust"
+    @chippy = "unlocked"
     end
   end
   
   def check_for_bj
     if (session[:player_hand].score == 21)
       @result = "Congratulations BlackJack!"
+      @chippy = "unlocked"
     end
   end
   
@@ -17,8 +19,7 @@ module GameHelper
     d_score = session[:dealer_hand].score
     bet = session[:bet].to_f
     dollars = current_user.bankroll.to_f
-    
-    
+       
     if (score > 21)
       @result = "You Lose"
     elsif (score == d_score)
@@ -30,9 +31,9 @@ module GameHelper
     else
       @result = "You Lose"
     end
-    
+    @chippy = "unlocked"
     current_user.bankroll = dollars
-    current_user.update
+    current_user.save
   end
   
 end

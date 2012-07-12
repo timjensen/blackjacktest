@@ -16,7 +16,8 @@ class GameController < ApplicationController
     dollars = current_user.bankroll.to_f
     dollars -= bet
     current_user.bankroll = dollars
-    current_user.update
+    current_user.save
+    @chippy = "locked";
     # Shuffle deck
     Card.shuffle
     # Players initial two cards
@@ -76,6 +77,12 @@ class GameController < ApplicationController
   def double
     
     find_winner
+  end
+  
+  def wager
+    betty = params[:bet].to_f
+    session[:bet] = betty
+    @bet = betty
   end
   
   

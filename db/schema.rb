@@ -20,9 +20,9 @@ ActiveRecord::Schema.define(:version => 20120708071329) do
     t.string   "oauth_token"
     t.string   "picture"
     t.datetime "oauth_expires_at"
-    t.integer  "bankroll"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.integer  "bankroll",         :default => 2000
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
   end
 
 end

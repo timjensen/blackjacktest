@@ -7,8 +7,8 @@
 <%= render 'bankroll' %>
 </div>
 <p><strong>Wager</strong></p>
-<label id="bet_amount">" "</label>
-<%= link_to_function image_tag("25chip.png"), "wager('25')" %>
-<%= link_to_function image_tag("50chip.png"), "wager('50')" %>
-<%= link_to_function image_tag("100chip.png"), "wager('100')" %>
+<p id="bet_amount"> $ <%= session[:bet]%></p>
+<div id="chips">
+<%= render 'chips' %>
+</div>
 </div>
