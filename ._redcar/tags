@@ -1,4 +1,4 @@
-1342068197
+1342264673
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
@@ -21,7 +21,10 @@ check_if_bust	C:/Sites/blaja/app/helpers/game_helper.rb	  def check_if_bust
 create	C:/Sites/blaja/app/controllers/sessions_controller.rb	  def create
 current_user	C:/Sites/blaja/app/controllers/application_controller.rb	  def current_user
 deal	C:/Sites/blaja/app/controllers/game_controller.rb	  def deal
+dealer_ftw	C:/Sites/blaja/app/helpers/game_helper.rb	  def dealer_ftw
+deduction	C:/Sites/blaja/app/helpers/game_helper.rb	  def deduction
 double	C:/Sites/blaja/app/controllers/game_controller.rb	  def double
+facebook	C:/Sites/blaja/app/models/user.rb	  def facebook
 find_winner	C:/Sites/blaja/app/helpers/game_helper.rb	  def find_winner
 from_omniauth	C:/Sites/blaja/app/models/user.rb	  def self.from_omniauth(auth)
 hit	C:/Sites/blaja/app/controllers/game_controller.rb	  def hit
@@ -30,6 +33,7 @@ initialize	C:/Sites/blaja/app/models/card.rb	  def initialize
 initialize	C:/Sites/blaja/app/models/hand.rb	  def initialize
 login	C:/Sites/blaja/app/controllers/game_controller.rb	  def login
 new	C:/Sites/blaja/app/controllers/users_controller.rb	  def new
+next_card	C:/Sites/blaja/app/helpers/game_helper.rb	  def next_card
 score	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
 score_of	C:/Sites/blaja/app/models/hand.rb	  def self.score_of(hand)
 shuffle	C:/Sites/blaja/app/models/card.rb	  def self.shuffle

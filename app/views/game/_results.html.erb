@@ -1,1 +1,13 @@
-<%= content_tag(:p, "#{@result}") %>
+<% if (defined?(@result)).nil? %>
+
+<% elsif @result == "Congratulations BlackJack!" || @result == "You Win!" || @result == "Push"%>
+<div id="winner">
+  <br>
+  <strong> <%= content_tag(:p, "#{@result}") %> </stong>
+</div>
+<% else %>
+<div id="loser"> 
+  <br>
+  <%= content_tag(:p, "#{@result}") %> 
+</div>
+<% end %>

@@ -9,6 +9,7 @@ Blaja::Application.routes.draw do
   post 'game/deal'
   post 'game/hit'
   post 'game/stay'
+  post 'game/double'
   post 'game/wager'
 
   # The priority is based upon order of creation:

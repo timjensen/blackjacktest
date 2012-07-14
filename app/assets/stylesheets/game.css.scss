@@ -11,7 +11,7 @@
 }
 #wrapper {
   margin: auto;
-  width: 610px;
+  width: 602px;
 }
 #headpic {
   float: left ;
@@ -52,9 +52,9 @@
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 	border-top-right-radius: 8px;
-  height: 450px;
-  padding: 25px 0px 0px 0px;
-  margin: 10px 0px 0px 0px;
+  height: 470px;
+  padding: 15px 0px 0px 0px;
+  margin: 10px 0px 0px 2px;
 }
 #rounded p {
   color: #FFC90E;
@@ -112,4 +112,51 @@
 	border-bottom-left-radius: 8px;
 	border-top-right-radius: 8px;
 }
-
+#chips a:hover {
+    margin-left: 2px;
+}
+#winner {
+  width: 390px;
+  min-height: 49px;
+  border: 2px solid green;
+  background-color: #45D366;
+  border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#winner p {
+  color: green;
+  font-size: 20px;
+  text-shadow: -1px 0 #33AB4F, 0 1px #33AB4F, 1px 0 #33AB4F, 0 -1px #33AB4F;
+}
+#loser {
+  width: 390px;
+  min-height: 49px;
+  border: 2px solid red;
+  background-color: #F57777;
+  border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#loser p {
+  color: red;
+  font-size: 20px;
+  text-shadow: -1px 0 #A53F3F, 0 1px #A53F3F, 1px 0 #A53F3F, 0 -1px #A53F3F;
+}
+#friend {
+  float: left;
+  text-align: center;
+  width: 100px;
+}
+#littlepic {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  border: 2px solid black;
+  border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-top-right-radius: 8px;
+}

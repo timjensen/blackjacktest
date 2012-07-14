@@ -4,6 +4,13 @@ class GameController < ApplicationController
   def index
     # Set default bet amount
     session[:bet] = "25";
+    # Use koala and facebook query language to select current users friends who use this app
+    friends = current_user.facebook.fql_query("SELECT uid FROM user WHERE uid IN (SELECT uid2 FROM friend WHERE uid1 = me()) AND is_app_user = 1")
+    # Makes a tidy array of user ids
+    uids = friends.collect { |f| f["uid"]}
+    # Create variable array of friends player the app
+    @friends = User.where(:uid => uids)
+    @friends = @friends.page(params[:page]).per_page(5)
   end
   
   def login
@@ -12,11 +19,7 @@ class GameController < ApplicationController
   # Deal action called by initial 'Play' button
   def deal
     # Deducted wager from bankroll as soon as deal
-    bet = session[:bet].to_f
-    dollars = current_user.bankroll.to_f
-    dollars -= bet
-    current_user.bankroll = dollars
-    current_user.save
+    deduction
     @chippy = "locked";
     # Shuffle deck
     Card.shuffle
@@ -42,30 +45,15 @@ class GameController < ApplicationController
   
   # Hit action called by 'Hit' button
   def hit
-    # Set hand variable using session variable
-    hand = session[:player_hand]
-    # Create new card
-    @card = Card.new
-    # Add new card to players hand
-    hand.cards << @card
-    # Calculate players new hand score
-    hand.score = Hand.score_of(hand)
-    # Update session variable to updated hand
-    session[:player_hand] = hand
+    next_card
     # Check player has not gone bust
+    @thirdcard = "Booyaa"
     check_if_bust
   end
   
   # Stay action called by 'Stay' button
   def stay
-    # Get session hand
-    dhand = session[:dealer_hand]
-    # Add new cards to dealers hand untill dealers score exceeds 16
-    dhand.cards << Card.new while(Hand.score_of(dhand) < 17)
-    # Update dealers hand score    
-    dhand.score = Hand.score_of(dhand)
-    # Update session variable
-    session[:dealer_hand] = dhand
+    dealer_ftw
     # Calculate winner
     find_winner
   end
@@ -75,8 +63,17 @@ class GameController < ApplicationController
   end
   
   def double
-    
-    find_winner
+    deduction
+    session[:bet] = session[:bet].to_f * 2
+    next_card
+    # Check if player has hone bust
+    check_if_bust
+    if (defined?(@result)).nil?
+      dealer_ftw
+      # Calculate winner
+      find_winner
+    end
+    session[:bet] = session[:bet].to_f / 2
   end
   
   def wager

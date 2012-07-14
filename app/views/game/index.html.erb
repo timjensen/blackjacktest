@@ -1,16 +1,21 @@
-<div id="mainbox">
-  <div id="dpic"></div>
-  <div id="dealer">
-    <div id="dscore"> </div>
-    <%= image_tag "cards/back.png"  %>&nbsp
-    <%= image_tag "cards/back.png"  %>
-  </div>
-  <div id="result"></div>
-  <div id="player">
-    <%= image_tag "cards/back.png"  %>&nbsp
-    <%= image_tag "cards/back.png"  %> 
-  </div>
-  <div id="buttons">
+<div id="pagebox">
+  <div id="betbar"><%= render 'betbar'%></div>
+  <div id="mainbox">
+    <div id="dpic"></div>
+    <div id="dealer">
+      <div id="dscore"> </div>
+      <%= image_tag "cards/back.png"  %>&nbsp
+      <%= image_tag "cards/back.png"  %>
+    </div>
+    <div id="result"></div>
+    <div id="player">
+      <%= image_tag "cards/back.png"  %>&nbsp
+      <%= image_tag "cards/back.png"  %> 
+    </div>
+    <div id="buttons">
     <%= button_to "DEAL", { :controller => 'game', :action => 'deal', :wager => '25' }, :remote => true, :class => 'btn btn-large btn-primary' %>  
+    </div>
   </div>
-</div>
+  <div id="ff">
+  <%= render 'friends' %>
+  </div>
