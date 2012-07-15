@@ -6,7 +6,11 @@
 <% end %>
 </div>
 <div id="friendcollector">
-  <%= render @friends %>
+  <% if @friends.count == 0 %>
+    &nbsp
+  <% else %>
+    <%= render @friends %>
+  <% end %>
 </div>
 <div id="forwardbut">
 <% if @friends.next_page %>
