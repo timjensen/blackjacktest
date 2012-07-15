@@ -137,9 +137,6 @@ cursor_positions:
   - :path: app/controllers/game_controller.rb
     :cursor_offset: 559
     :timestamp: 2012-07-14 19:24:36.037000 +12:00
-  - :path: app/views/game/index.html.erb
-    :cursor_offset: 643
-    :timestamp: 2012-07-14 22:21:22.493000 +12:00
   - :path: app/views/game/_chips.html.erb
     :cursor_offset: 614
     :timestamp: 2012-07-12 16:23:26.621000 +12:00
@@ -168,4 +165,7 @@ cursor_positions:
   - :path: app/views/game/login.html.erb
     :cursor_offset: 166
     :timestamp: 2012-07-15 16:19:43.656000 +12:00
+  - :path: app/views/game/index.html.erb
+    :cursor_offset: 653
+    :timestamp: 2012-07-15 22:45:35.489000 +12:00
 files_to_retain: 0
