@@ -17,6 +17,7 @@ class GameController < ApplicationController
   
   def login
     render :layout => 'login_lay'
+    reset_session
   end
   # Deal action called by initial 'Play' button
   def deal
