@@ -1,4 +1,4 @@
-1342264673
+1342337468
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
@@ -36,6 +36,7 @@ new	C:/Sites/blaja/app/controllers/users_controller.rb	  def new
 next_card	C:/Sites/blaja/app/helpers/game_helper.rb	  def next_card
 score	C:/Sites/blaja/app/models/hand.rb	  attr_accessor :cards, :score
 score_of	C:/Sites/blaja/app/models/hand.rb	  def self.score_of(hand)
+set_third	C:/Sites/blaja/app/helpers/game_helper.rb	  def set_third
 shuffle	C:/Sites/blaja/app/models/card.rb	  def self.shuffle
 split	C:/Sites/blaja/app/controllers/game_controller.rb	  def split
 stay	C:/Sites/blaja/app/controllers/game_controller.rb	  def stay

@@ -89,4 +89,8 @@ module GameHelper
       # Update session variable
       session[:dealer_hand] = dhand
   end
+  
+  def set_third
+    @thirdcard = "Booyaa"
+  end
 end

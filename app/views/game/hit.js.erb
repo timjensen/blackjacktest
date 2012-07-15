@@ -1,4 +1,5 @@
 $("#player").html("<%= escape_javascript( render(:partial => "players_cards") ) %>");
+$("#buttons").html("<%= escape_javascript( render(:partial => "buttons") ) %>");
 <% if @result == "You Have Gone Bust" %>
   $("#result").html("<%= escape_javascript( render(:partial => "results") ) %>");
   $("#buttons").html("<%= escape_javascript( render(:partial => "buttons") ) %>");

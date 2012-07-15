@@ -11,6 +11,8 @@ class GameController < ApplicationController
     # Create variable array of friends player the app
     @friends = User.where(:uid => uids)
     @friends = @friends.page(params[:page]).per_page(5)
+  rescue Koala::Facebook::APIError => e
+    redirect_to root_path
   end
   
   def login
@@ -47,7 +49,7 @@ class GameController < ApplicationController
   def hit
     next_card
     # Check player has not gone bust
-    @thirdcard = "Booyaa"
+    set_third
     check_if_bust
   end
   

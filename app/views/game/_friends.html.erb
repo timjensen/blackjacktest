@@ -1,14 +1,18 @@
-<div>
+<div id="backbut">
 <% if @friends.previous_page %>
   <%= link_to image_tag("back.png"), params.merge(page: @friends.previous_page), :remote => true %>
 <% else %>
 <%= image_tag("back.png") %>
 <% end %>
 </div>
-<div>
-<%= render @friends %>
+<div id="friendcollector">
+  <% if @friends.count == 0 %>
+    &nbsp
+  <% else %>
+    <%= render @friends %>
+  <% end %>
 </div>
-<div>
+<div id="forwardbut">
 <% if @friends.next_page %>
   <%= link_to image_tag("forward.png"), params.merge(page: @friends.next_page), :remote => true %>
 <% else %>
