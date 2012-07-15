@@ -7,6 +7,6 @@ OmniAuth.config.logger = Rails.logger
 #Koala patched for localhost 
 # Koala.http_service.http_options = { :ssl => { :ca_file => Rails.root.join('lib/assets/cacert.pem').to_s } }
 
-Rails.application.config.middleware.use OmniAuth::Builder do
-provider :facebook, "265240696909140", "5515ed0074ea3aed93d19ad1b886547d"
-end
+ Rails.application.config.middleware.use OmniAuth::Builder do
+ provider :facebook, "265240696909140", "5515ed0074ea3aed93d19ad1b886547d"
+ end

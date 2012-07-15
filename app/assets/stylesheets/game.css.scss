@@ -82,6 +82,9 @@
   text-align: center;
   color: yellow;
 }
+#player label {
+  color: #FFC90E;
+}
 #dpic {
   min-height: 40px ;
 }
@@ -93,7 +96,9 @@
 }
 #dscore {
   min-height: 27px;
-  color: yellow;
+}
+#dscore label {
+  color: #FFC90E;
 }
 #buttons {
   padding: 10px 0px 0px 0px;
