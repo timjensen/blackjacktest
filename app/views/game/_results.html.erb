@@ -1,9 +1,14 @@
-<% if (defined?(@result)).nil? %>
+<% if (defined?(@result)).nil? && (defined?(@warning)).nil? %>
 
 <% elsif @result == "Congratulations BlackJack!" || @result == "You Win!" || @result == "Push"%>
 <div id="winner">
   <br>
   <strong> <%= content_tag(:p, "#{@result}") %> </stong>
+</div>
+<% elsif @warning == "Your wallet is lacking the funds!!" %>
+<div id="loser"> 
+  <br>
+  <%= content_tag(:p, "#{@warning}") %> 
 </div>
 <% else %>
 <div id="loser"> 

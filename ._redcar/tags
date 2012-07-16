@@ -1,4 +1,4 @@
-1342350821
+1342418974
 Application	C:/Sites/blaja/config/application.rb	  class Application 
 ApplicationController	C:/Sites/blaja/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/blaja/app/helpers/application_helper.rb	module ApplicationHelper
@@ -27,6 +27,7 @@ double	C:/Sites/blaja/app/controllers/game_controller.rb	  def double
 facebook	C:/Sites/blaja/app/models/user.rb	  def facebook
 find_winner	C:/Sites/blaja/app/helpers/game_helper.rb	  def find_winner
 from_omniauth	C:/Sites/blaja/app/models/user.rb	  def self.from_omniauth(auth)
+got_the_dollars?	C:/Sites/blaja/app/helpers/game_helper.rb	  def got_the_dollars?
 hit	C:/Sites/blaja/app/controllers/game_controller.rb	  def hit
 index	C:/Sites/blaja/app/controllers/game_controller.rb	  def index
 initialize	C:/Sites/blaja/app/models/card.rb	  def initialize

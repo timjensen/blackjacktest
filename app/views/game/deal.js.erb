@@ -1,9 +1,13 @@
+<% if (defined?(@warning)).nil? %>
 $("#player").html("<%= escape_javascript( render(:partial => "players_cards") ) %>");
 $("#dealer").html("<%= escape_javascript( render(:partial => "dealers_initial") ) %>");
 $("#buttons").html("<%= escape_javascript( render(:partial => "buttons") ) %>");
 $("#result").html("<%= escape_javascript( render(:partial => "results") ) %>");
 $("#bank").html("<%= escape_javascript( render(:partial => "bankroll") ) %>");
 $("#chips").html("<%= escape_javascript( render(:partial => "chips") ) %>");
-<% if @result == "Congratulations BlackJack!" %>
-  $("#result").html("<%= escape_javascript( render(:partial => "results") ) %>");
+<% else %>
+$("#result").html("<%= escape_javascript( render(:partial => "results") ) %>");
 <% end %>
+//<% if @result == "Congratulations BlackJack!" %>
+//  $("#result").html("<%= escape_javascript( render(:partial => "results") ) %>");
+//<% end %>

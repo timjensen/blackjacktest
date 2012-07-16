@@ -22,9 +22,6 @@ cursor_positions:
     :timestamp: 2012-07-06 19:50:04.993000 +12:00
     :selection_offset: 100
     :block_selection_mode: false
-  - :path: app/views/game/_dealers_cards.html.erb
-    :cursor_offset: 205
-    :timestamp: 2012-07-06 19:50:27.185000 +12:00
   - :path: config/database.yml
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:30.649000 +12:00
@@ -75,9 +72,6 @@ cursor_positions:
   - :path: app/views/game/wager.js.erb
     :cursor_offset: 49
     :timestamp: 2012-07-12 15:41:38.734000 +12:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 246
-    :timestamp: 2012-07-13 12:35:29.099000 +12:00
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-07-05 10:33:28.546000 +12:00
@@ -86,9 +80,6 @@ cursor_positions:
     :timestamp: 2012-07-12 10:53:51.094000 +12:00
     :selection_offset: 402
     :block_selection_mode: false
-  - :path: config/routes.rb
-    :cursor_offset: 379
-    :timestamp: 2012-07-13 22:46:01.509000 +12:00
   - :path: app/views/game/_players_cards.html.erb
     :cursor_offset: 15
     :timestamp: 2012-07-06 20:43:19.088000 +12:00
@@ -102,15 +93,6 @@ cursor_positions:
     :timestamp: 2012-07-12 10:53:39.462000 +12:00
     :selection_offset: 85
     :block_selection_mode: false
-  - :path: app/assets/stylesheets/game.css.scss
-    :cursor_offset: 2444
-    :timestamp: 2012-07-14 15:34:08.565000 +12:00
-  - :path: config/initializers/omniauth.rb
-    :cursor_offset: 38
-    :timestamp: 2012-07-14 16:00:28.852000 +12:00
-  - :path: app/views/game/_results.html.erb
-    :cursor_offset: 127
-    :timestamp: 2012-07-14 15:56:19.316000 +12:00
   - :path: app/models/user.rb
     :cursor_offset: 275
     :timestamp: 2012-07-14 16:35:05.980000 +12:00
@@ -122,15 +104,9 @@ cursor_positions:
     :timestamp: 2012-07-12 16:43:17.255000 +12:00
     :selection_offset: 108
     :block_selection_mode: false
-  - :path: db/migrate/20120708071329_create_users.rb
-    :cursor_offset: 180
-    :timestamp: 2012-07-14 16:36:20.516000 +12:00
   - :path: Gemfile
     :cursor_offset: 145
     :timestamp: 2012-07-14 18:46:30.069000 +12:00
-  - :path: app/views/game/index.js.erb
-    :cursor_offset: 63
-    :timestamp: 2012-07-14 22:20:00.607000 +12:00
   - :path: app/controllers/sessions_controller.rb
     :cursor_offset: 150
     :timestamp: 2012-07-11 22:44:40.225000 +12:00
@@ -156,16 +132,45 @@ cursor_positions:
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 304
     :timestamp: 2012-07-15 14:37:24.593000 +12:00
-  - :path: app/views/users/_user.html.erb
-    :cursor_offset: 138
-    :timestamp: 2012-07-15 11:44:13.360000 +12:00
-  - :path: app/views/game/_friends.html.erb
-    :cursor_offset: 245
-    :timestamp: 2012-07-15 12:08:07.159000 +12:00
   - :path: app/views/game/login.html.erb
     :cursor_offset: 166
     :timestamp: 2012-07-15 16:19:43.656000 +12:00
   - :path: app/views/game/index.html.erb
     :cursor_offset: 653
     :timestamp: 2012-07-15 22:45:35.489000 +12:00
+  - :path: app/views/game/_dealers_cards.html.erb
+    :cursor_offset: 205
+    :timestamp: 2012-07-06 19:50:27.185000 +12:00
+  - :path: app/assets/stylesheets/game.css.scss
+    :cursor_offset: 1430
+    :timestamp: 2012-07-15 19:47:42.825000 +12:00
+  - :path: config/initializers/omniauth.rb
+    :cursor_offset: 39
+    :timestamp: 2012-07-16 14:41:41.472000 +12:00
+  - :path: config/routes.rb
+    :cursor_offset: 379
+    :timestamp: 2012-07-13 22:46:01.509000 +12:00
+  - :path: app/views/game/_friends.html.erb
+    :cursor_offset: 288
+    :timestamp: 2012-07-15 23:13:41.504000 +12:00
+    :selection_offset: 237
+    :block_selection_mode: false
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 10:33:28.525000 +12:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 246
+    :timestamp: 2012-07-13 12:35:29.099000 +12:00
+  - :path: db/migrate/20120708071329_create_users.rb
+    :cursor_offset: 125
+    :timestamp: 2012-07-15 22:50:54.209000 +12:00
+  - :path: app/views/game/index.js.erb
+    :cursor_offset: 63
+    :timestamp: 2012-07-14 22:20:00.607000 +12:00
+  - :path: app/views/users/_user.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-07-15 11:44:13.360000 +12:00
+  - :path: app/views/game/_results.html.erb
+    :cursor_offset: 153
+    :timestamp: 2012-07-16 15:33:47.805000 +12:00
 files_to_retain: 0

@@ -93,4 +93,10 @@ module GameHelper
   def set_third
     @thirdcard = "Booyaa"
   end
+  
+  def got_the_dollars?
+    bank = current_user.bankroll.to_f
+    want = session[:bet].to_f
+    bank >= want
+  end
 end
