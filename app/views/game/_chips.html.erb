@@ -1,13 +1,13 @@
 <% if (defined?(@chippy)).nil? %>
-<%= link_to image_tag("25chip.png"), { :controller => 'game', :action => 'wager', :bet => '25' }, :remote => true , :method => :post %>
-<%= link_to image_tag("50chip.png"), { :controller => 'game', :action => 'wager', :bet => '50' }, :remote => true, :method => :post %>
-<%= link_to image_tag("100chip.png"), { :controller => 'game', :action => 'wager', :bet => '100' }, :remote => true, :method => :post %>
+<%= link_to image_tag("25chip.png"), { :controller => 'game', :action => 'wager', :bet => '25' }, :remote => true , :method => :post, :title => "Set wager to $25" %>
+<%= link_to image_tag("50chip.png"), { :controller => 'game', :action => 'wager', :bet => '50' }, :remote => true, :method => :post, :title => "Set wager to $50" %>
+<%= link_to image_tag("100chip.png"), { :controller => 'game', :action => 'wager', :bet => '100' }, :remote => true, :method => :post, :title => "Set wager to $100" %>
 <% elsif @chippy == "locked" %>
-<%= image_tag("25chip.png") %>
-<%= image_tag("50chip.png") %>
-<%= image_tag("100chip.png") %>
+<%= image_tag("25chip.png", :title => "Now Now No Cheating \n You Cant Change Your Bet \n After Peeking At Your Cards")  %>
+<%= image_tag("50chip.png", :title => "Now Now No Cheating \n You Cant Change Your Bet \n After Peeking At Your Cards") %>
+<%= image_tag("100chip.png", :title => "Now Now No Cheating \n You Cant Change Your Bet \n After Peeking At Your Cards") %>
 <% else %>
-<%= link_to image_tag("25chip.png"), { :controller => 'game', :action => 'wager', :bet => '25' }, :remote => true, :method => :post %>
-<%= link_to image_tag("50chip.png"), { :controller => 'game', :action => 'wager', :bet => '50' }, :remote => true, :method => :post %>
-<%= link_to image_tag("100chip.png"), { :controller => 'game', :action => 'wager', :bet => '100' }, :remote => true, :method => :post %>
+<%= link_to image_tag("25chip.png"), { :controller => 'game', :action => 'wager', :bet => '25' }, :remote => true, :method => :post, :title => "Set wager to $25" %>
+<%= link_to image_tag("50chip.png"), { :controller => 'game', :action => 'wager', :bet => '50' }, :remote => true, :method => :post, :title => "Set wager to $50" %>
+<%= link_to image_tag("100chip.png"), { :controller => 'game', :action => 'wager', :bet => '100' }, :remote => true, :method => :post, :title => "Set wager to $100" %>
 <% end %>

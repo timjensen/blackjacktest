@@ -1,2 +1,5 @@
 <p><strong>Bankroll</strong></p>
 <p>$<%= current_user.bankroll %></p>
+<% if current_user.bankroll < 25 %>
+<%= link_to "+ Top Up", { :controller => 'game', :action => 'topup' }, :remote => true, :method => :post%>
+<% end %>

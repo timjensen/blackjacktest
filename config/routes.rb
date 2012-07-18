@@ -11,6 +11,7 @@ Blaja::Application.routes.draw do
   post 'game/stay'
   post 'game/double'
   post 'game/wager'
+  post 'game/topup'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
